@@ -1,3 +1,2 @@
-this is a test.txt
-123
-中文
+1234567890
+abcdefghijklmnopqrstuvwxyz
