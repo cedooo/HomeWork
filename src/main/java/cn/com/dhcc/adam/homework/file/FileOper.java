@@ -89,6 +89,7 @@ public class FileOper {
 			
 			System.out.println("string builder length:" + strbu.length());
 			System.out.println(strbu);
+			fileChannel.close();
 			fis.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
