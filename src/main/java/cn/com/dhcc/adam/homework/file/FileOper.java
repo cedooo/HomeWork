@@ -17,7 +17,11 @@ public class FileOper {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		readByStream();
+		readByNIO();
+	}
+
+	private static void readByStream(){
 		String proPath = System.getProperty("user.dir");
 		//System.out.println(System.getProperty("user.home"));
 		String filePath = proPath + "/src/main/java/cn/com/dhcc/adam/homework/file/testfile.txt";
@@ -54,7 +58,6 @@ public class FileOper {
 				}
 			}
 		}
-		readByNIO();
 	}
 
 	private static void readByNIO(){
@@ -65,7 +68,7 @@ public class FileOper {
 		try {
 			FileInputStream fis = new FileInputStream(filePath);
 			FileChannel fileChannel = fis.getChannel();
-			int capacity = 12;
+			int capacity = 1024;
 			ByteBuffer bytebuff = ByteBuffer.allocate(capacity);
 			byte[] charbyte = new byte[capacity];
 			StringBuilder strbu = new StringBuilder();
