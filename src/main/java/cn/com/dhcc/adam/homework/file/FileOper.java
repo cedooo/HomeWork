@@ -68,7 +68,7 @@ public class FileOper {
 		try {
 			FileInputStream fis = new FileInputStream(filePath);
 			FileChannel fileChannel = fis.getChannel();
-			int capacity = 1024;
+			int capacity = 13;
 			ByteBuffer bytebuff = ByteBuffer.allocate(capacity);
 			byte[] charbyte = new byte[capacity];
 			StringBuilder strbu = new StringBuilder();
