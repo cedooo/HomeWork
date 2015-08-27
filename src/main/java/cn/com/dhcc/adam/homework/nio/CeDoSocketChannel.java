@@ -72,7 +72,9 @@ class CeDoClientL implements Runnable{
 			String info = "Hello Server! -- " + System.currentTimeMillis();
 			bb.put(info.getBytes());
 			bb.flip();
-			sc.write(bb);
+			while(bb.hasRemaining()){
+				sc.write(bb);
+			}
 			sc.close();
 		} catch (IOException e) {
 			e.printStackTrace();
