@@ -15,7 +15,7 @@
 	<li>2015-08-28*	Selector</li>
 </ul>
 <hr />
-<a href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
+<a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
 <ol>
 <li>Exceptions</li>	
 <li>Basic I/O</li>	
