@@ -20,7 +20,9 @@ public class FileOper {
 		readByStream();
 		readByNIO();
 	}
-
+	/**
+	 * read by stream
+	 */
 	private static void readByStream(){
 		String proPath = System.getProperty("user.dir");
 		//System.out.println(System.getProperty("user.home"));
@@ -59,7 +61,9 @@ public class FileOper {
 			}
 		}
 	}
-
+	/**
+	 * read by java.nio.*
+	 */
 	private static void readByNIO(){
 		System.out.println("==========NIO=================");
 		String proPath = System.getProperty("user.dir");
