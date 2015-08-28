@@ -38,17 +38,22 @@ class CeDoServerL implements Runnable{
 			ssc.socket().bind(new InetSocketAddress(CeDoSocketChannel.PORT));
 			ssc.configureBlocking(false);
 			while(true){
-				SocketChannel sc = ssc.accept();
-				if(sc!=null){
-					System.out.println("\nflag:" + sc.getRemoteAddress() + ", timestamp:" + System.currentTimeMillis());
-					ByteBuffer buffer = ByteBuffer.allocate(10240);
-					sc.read(buffer);
-					buffer.flip();
-					for (int i = 0; i < buffer.limit(); i++)
-			        {
-			            System.out.print((char) buffer.get()); //Print the content of file
-			        }
-					sc.close();
+				SocketChannel sc = null;
+				try{
+					sc = ssc.accept();
+					if(sc!=null){
+						System.out.println("\nflag:" + sc.getRemoteAddress() + ", timestamp:" + System.currentTimeMillis());
+						ByteBuffer buffer = ByteBuffer.allocate(10240);
+						sc.read(buffer);
+						buffer.flip();
+						for (int i = 0; i < buffer.limit(); i++)
+				        {
+				            System.out.print((char) buffer.get()); //Print the content of file
+				        }
+						sc.close();
+					}
+				}catch(IOException e){
+					e.printStackTrace();
 				}
 				Thread.sleep(100l);
 			}
