@@ -28,11 +28,16 @@ public class CeDoSelectorServerClient {
 	}
 	
 	public void startSimSC(){
+//		new Thread(new Server()).start();
 		new Thread(new SelectorServer()).start();
 		new Thread(new Client()).start();
 	}
-	
-	private class Server implements Runnable{
+	/**
+	 * 未运用Selector的Server
+	 * @author cedo
+	 *
+	 */
+	public class Server implements Runnable{
 
 		@Override
 		public void run() {
@@ -109,21 +114,52 @@ public class CeDoSelectorServerClient {
 				schannel.register(selector, SelectionKey.OP_ACCEPT);
 				
 				System.out.println("ready channel:" + selector.select());
+				ServerSocketChannel acceptChannel = null;
 				
 				Set<SelectionKey> selectedKeys = selector.selectedKeys();
 				Iterator<SelectionKey> keyIterator = selectedKeys.iterator();
 				while(keyIterator.hasNext()) {
 				    SelectionKey key = keyIterator.next();
+				    System.out.println(key.channel().toString());
+				    
 				    if(key.isAcceptable()) {
-				        // a connection was accepted by a ServerSocketChannel.
-				    } else if (key.isConnectable()) {
-				        // a connection was established with a remote server.
-				    } else if (key.isReadable()) {
-				        // a channel is ready for reading
-				    } else if (key.isWritable()) {
-				        // a channel is ready for writing
-				    }
-				    keyIterator.remove();
+				    	acceptChannel = (ServerSocketChannel) key.channel();
+				    	break;
+				    } 
+				}
+				
+				SocketChannel socketChannel = null;
+				ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
+				try{
+					socketChannel = acceptChannel.accept();
+					if(socketChannel!=null){
+						StringBuilder strBuilder = new StringBuilder();
+						boolean bye = false;
+						boolean continueRead = false;
+						do{
+							int readedLength = socketChannel.read(byteBuffer);
+							byteBuffer.flip();
+							//read 
+							strBuilder = new StringBuilder();
+							while(byteBuffer.hasRemaining()){
+								strBuilder.append((char) byteBuffer.get());
+							}
+							System.out.println("server recevied[" + byteBuffer.limit() + "][" + System.currentTimeMillis() +"]:  " + strBuilder.toString());
+							byteBuffer.clear();
+							Thread.sleep(100);
+							bye = "bye".equals(strBuilder.toString().trim());
+							continueRead = !bye && readedLength>0;
+						}while(continueRead);
+						System.out.println("bye client:diconnected.");
+					}
+				}catch(Exception e){
+					e.printStackTrace();
+				}finally {
+					if(socketChannel!=null){
+						try{
+							socketChannel.close();
+						}catch(IOException e){}
+					}
 				}
 			
 			} catch (IOException e) {
