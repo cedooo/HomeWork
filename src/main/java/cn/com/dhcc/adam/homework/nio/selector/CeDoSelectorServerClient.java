@@ -109,6 +109,22 @@ public class CeDoSelectorServerClient {
 				schannel.register(selector, SelectionKey.OP_ACCEPT);
 				
 				System.out.println("ready channel:" + selector.select());
+				
+				Set<SelectionKey> selectedKeys = selector.selectedKeys();
+				Iterator<SelectionKey> keyIterator = selectedKeys.iterator();
+				while(keyIterator.hasNext()) {
+				    SelectionKey key = keyIterator.next();
+				    if(key.isAcceptable()) {
+				        // a connection was accepted by a ServerSocketChannel.
+				    } else if (key.isConnectable()) {
+				        // a connection was established with a remote server.
+				    } else if (key.isReadable()) {
+				        // a channel is ready for reading
+				    } else if (key.isWritable()) {
+				        // a channel is ready for writing
+				    }
+				    keyIterator.remove();
+				}
 			
 			} catch (IOException e) {
 				e.printStackTrace();
