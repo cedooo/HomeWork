@@ -60,7 +60,7 @@ public class CeDoSelector {
 						e.printStackTrace();
 					}finally{
 						if(selectedSC!=null){
-							selectedSC.close();
+							//selectedSC.close();
 						}
 					}
 					break;
