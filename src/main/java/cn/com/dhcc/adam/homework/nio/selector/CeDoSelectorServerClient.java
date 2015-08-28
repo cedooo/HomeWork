@@ -108,62 +108,7 @@ public class CeDoSelectorServerClient {
 				Selector selector = Selector.open();
 				schannel.register(selector, SelectionKey.OP_ACCEPT);
 				
-				Set<SelectionKey> keySet = selector.keys();
-				Iterator<SelectionKey> iterator = keySet.iterator();
-				while(true){
-					while(iterator.hasNext()){
-						SelectionKey skey = iterator.next();
-						if(skey.isAcceptable()){
-							ServerSocketChannel serverSocketChannel = (ServerSocketChannel)skey.channel();
-							SocketChannel socketChannel = null;
-							ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
-							while(true){
-								try{
-									socketChannel = serverSocketChannel.accept();
-									if(socketChannel!=null){
-										StringBuilder strBuilder = new StringBuilder();
-										boolean bye = false;
-										boolean continueRead = false;
-										do{
-											int readedLength = socketChannel.read(byteBuffer);
-											byteBuffer.flip();
-											//read 
-											strBuilder = new StringBuilder();
-											while(byteBuffer.hasRemaining()){
-												strBuilder.append((char) byteBuffer.get());
-											}
-											System.out.println("server recevied[" + byteBuffer.limit() + "][" + System.currentTimeMillis() +"]:  " + strBuilder.toString());
-											byteBuffer.clear();
-											Thread.sleep(100);
-											bye = "bye".equals(strBuilder.toString().trim());
-											continueRead = !bye && readedLength>0;
-										}while(continueRead);
-										System.out.println("bye client:diconnected.");
-									}
-								}catch(Exception e){
-									e.printStackTrace();
-								}finally {
-									if(socketChannel!=null){
-										try{
-											socketChannel.close();
-										}catch(IOException e){}
-									}
-								}
-								try {
-									Thread.sleep(100);
-								} catch (InterruptedException e) {
-									// TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-							}   //end while
-						}
-					}
-					try {
-						Thread.sleep(100);
-					} catch (InterruptedException e) {
-						e.printStackTrace();
-					}
-				}
+				System.out.println("ready channel:" + selector.select());
 			
 			} catch (IOException e) {
 				e.printStackTrace();
