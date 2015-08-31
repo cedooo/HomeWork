@@ -1,3 +1,4 @@
+    Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
 call stack
 exception handler
 The Three Kinds of Exceptions: checked exception; error; runtime exception;
@@ -8,3 +9,6 @@ finally:preventing resource leaks
 try-with-resources
 Suppressed Exceptions
 Throw Exceptions
+Stack Trace
+Unchecked Exceptions
+Advantages of Exceptions(3)

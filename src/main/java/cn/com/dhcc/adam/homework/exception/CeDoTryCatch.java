@@ -14,7 +14,13 @@ public class CeDoTryCatch {
 		;
 		try {
 			readFirstLineFromFileWithFinallyBlock("I:/times.logs");
-		} catch (IOException e) {
+		} 
+		/*
+		catch (Exception e){   //if it occur there, it will not complie success!
+			
+		}
+		*/
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
