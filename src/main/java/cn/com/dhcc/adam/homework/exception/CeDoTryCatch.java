@@ -10,8 +10,12 @@ public class CeDoTryCatch {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("static f() return value is :" + f());
-		;
+		testException();
+		
+		//testRuntime();
+	}
+	public static void testException(){
+		System.out.println("static f() return value is :" + f());;
 		try {
 			readFirstLineFromFileWithFinallyBlock("I:/times.logs");
 		} 
@@ -51,5 +55,13 @@ public class CeDoTryCatch {
 		} finally {
 			br.close();
 		}
+	}
+	/**
+	 * @throws NullPointerException
+	 */
+	@SuppressWarnings("null")
+	public static void testRuntime(){
+		String[] stringArray = null;
+		System.out.println(stringArray[0]);
 	}
 }
