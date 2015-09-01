@@ -8,3 +8,8 @@ Object Streams
 
 FileInputStream and FileOutputStream
 Reader and Writer
+BufferedInputStream and BufferedOutputStream  &  BufferedReader and BufferedWriter
+Scanner
+format Method
+DataInput interface & the DataOutput interface
+ObjectInputStream and ObjectOutputStream
