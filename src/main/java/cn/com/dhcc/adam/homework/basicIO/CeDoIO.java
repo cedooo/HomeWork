@@ -2,7 +2,11 @@ package cn.com.dhcc.adam.homework.basicIO;
 
 import java.io.Console;
 import java.util.Arrays;
-
+/**
+ * export as runnable jar
+ * @author cedo
+ *
+ */
 public class CeDoIO {
 
 	/**

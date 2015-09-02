@@ -15,6 +15,7 @@
 	<li>2015-08-28	Selector</li>
 	<li>2015-08-31	Essential Classes-Exceptions <a target="_blank" href="https://docs.oracle.com/javase/tutorial/figures/essential/exceptions-throwable.gif" >illustrates</a></li>
 	<li>2015-09-01	BasicIO-IO Stream</li>
+	<li>2015-09-06*	Concurrency</li>
 </ul>
 <hr />
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
