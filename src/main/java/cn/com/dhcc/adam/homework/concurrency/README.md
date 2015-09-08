@@ -24,14 +24,17 @@
  <p>
  Liveness<br />
  A concurrent application's ability to execute in a timely manner is known as its liveness.
- </p></li>
+ </p>
+<ol>
  <li>
- <p>
- <b>Starvation</b>: ... unable to gain regular access to shared resources and is unable to make progress. <br />
+ <b>Starvation</b>: ... unable to gain regular access to shared resources and is unable to make progress. 
+ </li>
+ <li>
  <b>Livelock</b>: A thread often acts in response to the action of another thread. 
  If the other thread's action is also a response to the action of another thread, then livelock may result. As with deadlock,
   livelocked threads are unable to make further progress. However, the threads are not blocked 
-
+ </li>
+ </ol>
  </p>
  </li>
  </ul>
