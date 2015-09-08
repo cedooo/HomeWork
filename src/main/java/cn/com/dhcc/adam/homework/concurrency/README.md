@@ -24,15 +24,17 @@
  <p>
  Liveness<br />
  A concurrent application's ability to execute in a timely manner is known as its liveness.
+ <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/liveness.html">REF</a>
  </p>
 <ol>
  <li>
  <b>Starvation</b>: ... unable to gain regular access to shared resources and is unable to make progress. 
+ <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html">REF</a>
  </li>
  <li>
  <b>Livelock</b>: A thread often acts in response to the action of another thread. 
  If the other thread's action is also a response to the action of another thread, then livelock may result. As with deadlock,
-  livelocked threads are unable to make further progress. However, the threads are not blocked 
+  livelocked threads are unable to make further progress. However, the threads are not blocked ... <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html">REF</a>
  </li>
  </ol>
  </p>
