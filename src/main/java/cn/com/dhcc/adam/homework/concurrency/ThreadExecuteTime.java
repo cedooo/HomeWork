@@ -28,7 +28,7 @@ class SetThread implements Runnable{
 
 	@Override
 	public void run() {
-				InfoObj.value++;
+		InfoObj.value++;
 	}
 	
 }
@@ -36,7 +36,7 @@ class PrintThread implements Runnable{
 
 	@Override
 	public void run() {
-				System.out.println(InfoObj.value);
+		System.out.println(InfoObj.value);
 	}
 	
 }
