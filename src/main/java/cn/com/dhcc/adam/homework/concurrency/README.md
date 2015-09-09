@@ -24,24 +24,24 @@
  <p>
  Liveness<br />
  A concurrent application's ability to execute in a timely manner is known as its liveness.
- <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/liveness.html">REF</a>
+ <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/liveness.html">link</a>
  </p>
 <ol>
  <li>
  <b>Starvation</b>: ... unable to gain regular access to shared resources and is unable to make progress. 
- <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html">REF</a>
+ <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html">link</a>
  </li>
  <li>
  <b>Livelock</b>: A thread often acts in response to the action of another thread. 
  If the other thread's action is also a response to the action of another thread, then livelock may result. As with deadlock,
-  livelocked threads are unable to make further progress. However, the threads are not blocked ... <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html">REF</a>
+  livelocked threads are unable to make further progress. However, the threads are not blocked ... <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html">link</a>
  </li>
  </ol>
  </p>
  </li>
  <li>
- Guarded blocks <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html">REF</a> 
- <a target="_blank" href="http://ifeve.com/oracle-guarded-blocks/">REF-CN</a>,
+ Guarded blocks <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html">link</a> 
+ <a target="_blank" href="http://ifeve.com/oracle-guarded-blocks/">link-CN</a>,
   Immutable objects
  </li>
  <li>
