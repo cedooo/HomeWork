@@ -39,4 +39,11 @@
  </ol>
  </p>
  </li>
+ <li>
+ Guarded blocks, Immutable objects
+ </li>
+ <li>
+ <b>High level concurrency objects</b><br />
+ <code>java.util.concurrent</code>
+ </li>
  </ul>
