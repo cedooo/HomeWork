@@ -40,7 +40,9 @@
  </p>
  </li>
  <li>
- Guarded blocks, Immutable objects
+ Guarded blocks <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html">REF</a> 
+ <a target="_blank" href="http://ifeve.com/oracle-guarded-blocks/">REF-CN</a>,
+  Immutable objects
  </li>
  <li>
  <b>High level concurrency objects</b><br />
