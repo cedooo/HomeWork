@@ -17,6 +17,8 @@
 	<li>2015-09-01	BasicIO-IO Stream</li>
 	<li>2015-09-06	Concurrency(1)-Thread&Synchronization</li>
 	<li>2015-09-07	Concurrency(2)-Liveness</li>
+	<li>2015-09-09	Concurrency(3)-Guarded Blocks</li>
+	<li>2015-09-11*	Concurrency(4)-High Level Concurrency Objects</li>
 </ul>
 <hr />
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
