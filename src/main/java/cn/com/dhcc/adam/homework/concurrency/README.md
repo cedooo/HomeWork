@@ -48,7 +48,15 @@
  <code>java.util.concurrent</code>
  </li>
  <li>
- Executors<br />
-	Executor Interfaces、Thread Pools、Fork/Join
+ Executors
+	<ol>
+	<li>
+		Executor Interfaces</li>
+	<li>
+		Thread Pools. <a href="http://www.infoq.com/cn/articles/java-threadPool" >extra @infoQ</a><br/>
+		<img src="http://cdn1.infoqstatic.com/statics_s2_20150902-03315u4/resource/articles/java-threadPool/zh/resources/threadpool.jpg" />
+	</li>
+	<li>Fork/Join</li>
+	</ol>
  </li>
  </ul>
