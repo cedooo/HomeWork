@@ -25,10 +25,11 @@
         <tr>
           <td headers="h1">unary</td>
           <td headers="h2">
-            <code>++<em>expr</em> 
-            --<em>expr</em> 
-			+<em>expr</em> 
-			-<em>expr</em> ~ !</code>
+            <code>++
+            <em>expr</em> --
+            <em>expr</em> +
+            <em>expr</em> -
+            <em>expr</em> ~ !</code>
           </td>
         </tr>
         <tr>
@@ -105,9 +106,8 @@
         </tr>
       </tbody>
     </table>
-	
-	<p>
-		<a target="_blank" href="http://www.cnblogs.com/kissazi2/archive/2012/11/02/2750924.html">异或、同或</a>
-	</p>
+    <p>
+      <a target="_blank" href="http://www.cnblogs.com/kissazi2/archive/2012/11/02/2750924.html">异或、同或</a>
+    </p>
   </body>
 </html>
