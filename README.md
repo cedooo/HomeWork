@@ -4,9 +4,9 @@
 <h5>计划列表-<span style="color:gray;">2015-08-25 10:38:02</span></h5>
 
 <ul>
-<li>文件操作 ☑ ¼</li>
-<li>线程相关：线程同步、线程池</li>
-<li>数据结构、设计模式、JVM</li>
+	<li>Essential Class: 异常、文件操作 、线程相关：线程同步、线程池、正则表达式</li>
+	<li>数据结构、设计模式、JVM</li>
+	<li>Java WEB、Java Servlet、 Spring、MyBatis、WebService、Log</li>
 </ul>
 <hr />
 <ul>
@@ -21,6 +21,7 @@
 	<li>2015-09-11	Concurrency(4)-High Level Concurrency Objects</li>
 	<li>2015-09-14	Concurrency(5)-Executor</li>
 	<li>2015-09-16	The Platform Environment</li>
+	<li>2015-09-17*	Regular Expressions</li>
 </ul>
 <hr />
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
