@@ -6,7 +6,7 @@
 <ul>
 	<li>Essential Class: 异常、文件操作 、线程相关：线程同步、线程池、正则表达式</li>
 	<li>数据结构、设计模式、JVM</li>
-	<li>Java WEB、Java Servlet、 Spring、MyBatis、WebService、Log</li>
+	<li>Java Servlet、 Spring、MyBatis、WebService、Log</li>
 </ul>
 <hr />
 <ul>
