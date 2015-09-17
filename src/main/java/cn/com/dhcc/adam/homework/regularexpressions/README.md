@@ -19,7 +19,7 @@
     </a> .</p>
     <p>The metacharacters supported by this API are: &lt;([{\^-=$!|]})?*+.&gt;</p>
     <p>Character Classes</p>
-    <table border="1" summary="regular expression constructs for the character classes">
+    <table border="0" summary="regular expression constructs for the character classes">
       <tbody>
         <tr>
           <th id="h1">Construct</th>
@@ -70,7 +70,7 @@
       </tbody>
     </table>
     <p>Predefined Character Classes</p>
-    <table border="1" summary="Predefined character classes">
+    <table border="0" summary="Predefined character classes">
       <tbody>
         <tr>
           <th id="h1">Construct</th>
@@ -127,7 +127,7 @@
       </tbody>
     </table>
     <p>Quantifiers</p>
-    <table border="1" cellspacing="2" cellpadding="0" summary="table of greedy, reluctant, and possessive quantifiers">
+    <table border="0" cellspacing="2" cellpadding="0" summary="table of greedy, reluctant, and possessive quantifiers">
       <tbody>
         <tr>
           <th id="h1">Greedy</th>
@@ -243,7 +243,7 @@
       </li>
     </ol>
     <p>Boundary Matchers</p>
-    <table border="1" cellspacing="2" cellpadding="0" summary="a description of all boundary matchers">
+    <table border="0" cellspacing="2" cellpadding="0" summary="a description of all boundary matchers">
       <tbody>
         <tr>
           <th id="h1">Boundary Construct</th>
