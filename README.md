@@ -21,7 +21,7 @@
 	<li>2015-09-11	Concurrency(4)-High Level Concurrency Objects</li>
 	<li>2015-09-14	Concurrency(5)-Executor</li>
 	<li>2015-09-16	The Platform Environment</li>
-	<li>2015-09-17*	Regular Expressions</li>
+	<li>2015-09-17	Regular Expressions</li>
 </ul>
 <hr />
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
