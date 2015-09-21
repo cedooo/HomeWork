@@ -150,7 +150,7 @@
         </tr>
         <tr>
           <td headers="h1">
-            <code>X\**</code>
+            <code>X\*</code>
           </td>
           <td headers="h2"> 
             <code>X\*?</code>
