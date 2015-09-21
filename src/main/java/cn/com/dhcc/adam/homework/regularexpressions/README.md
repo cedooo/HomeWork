@@ -150,9 +150,9 @@
         </tr>
         <tr>
           <td headers="h1">
-            <code>X\*</code>
+            <code>X\* </code>
           </td>
-          <td headers="h2">
+          <td headers="h2"> 
             <code>X\*?</code>
           </td>
           <td headers="h3">
@@ -161,7 +161,7 @@
           <td headers="h4">
           <code style="font-style: italic">X</code>, zero or more times</td>
         </tr>
-        <tr>
+        <tr> 
           <td headers="h1">
             <code>X+</code>
           </td>
