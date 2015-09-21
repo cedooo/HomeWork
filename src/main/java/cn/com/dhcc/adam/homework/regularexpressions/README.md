@@ -17,7 +17,7 @@
     href="https://docs.oracle.com/javase/8/docs/api/java/util/regex/PatternSyntaxException.html">
       <code>PatternSyntaxException</code>
     </a> .</p>
-    <p>The metacharacters supported by this API are: &lt;([{\^-=$!|]})?*+.&gt;</p>
+    <p>The metacharacters supported by this API are: &lt;([{\^-=$!|]})?\*+.&gt;</p>
     <p>Character Classes</p>
     <table border="0" summary="regular expression constructs for the character classes">
       <tbody>
