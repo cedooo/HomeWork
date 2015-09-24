@@ -22,6 +22,8 @@
 	<li>2015-09-14	Concurrency(5)-Executor</li>
 	<li>2015-09-16	The Platform Environment</li>
 	<li>2015-09-17	Regular Expressions</li>
+	<li>2015-09-21	Exceptions</li>
+	<li>2015-09-24	Tomcat Web Application Deployment Descriptor</li>
 </ul>
 <hr />
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
