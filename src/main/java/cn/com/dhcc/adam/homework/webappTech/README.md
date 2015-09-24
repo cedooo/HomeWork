@@ -12,7 +12,7 @@ http://www.myserver.com     /mywebapp        /helloServlet      /hello
 Remember the following three points:
 <ol>
 <li> Request URI = context path + servlet path + path info.</li>
-<li> Context paths and servlet paths start with a / but do not end with it.</li>
+<li> Context paths and servlet paths start with a / but <b>do not end with it</b>.</li>
 <li> HttpServletRequest provides three methods getContextPath(),
     getServletPath() and getPathInfo() to retrieve the context path,
     the servlet path, and the path info, respectively, associated with a request.</li>
