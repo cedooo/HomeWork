@@ -50,9 +50,11 @@ public class DateTimeTest {
 		System.out.println(ZoneId.systemDefault());
 		//时区
 		Set<String> allZoneId = ZoneId.getAvailableZoneIds();
+		System.out.println("======================================");
 		for (String zoneId : allZoneId) {
-			System.out.println(zoneId);
+			System.out.print("\t" + zoneId);
 		}
+		System.out.println("\n======================================");
 		
 		
 		Instant nowIns = Instant.now();

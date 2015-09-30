@@ -24,6 +24,7 @@
 	<li>2015-09-17	Regular Expressions</li>
 	<li>2015-09-21	Exceptions</li>
 	<li>2015-09-24	Tomcat Web Application Deployment Descriptor</li>
+	<li>2015-09-29	Date Time API(1) (JDK1.8)</li>
 </ul>
 <hr />
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
