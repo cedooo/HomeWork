@@ -3,21 +3,21 @@
 ***坚持每周更新3次!***
 <h5>计划列表-<span style="color:gray;">2015-08-25 10:38:02</span></h5>
 
--[x] Essential Class
+- [x] Essential Class
 	- [x] 异常
 	- [x] 文件操作 
 	- [x] 线程相关
 		- [x] 线程同步
 		- [x] 线程池
 	- [] 正则表达式
--[] 数据结构
--[] 设计模式
--[] JVM
--[] Java Servlet
--[] Spring
--[] MyBatis
--[] WebService
--[x] Log
+- [] 数据结构
+- [] 设计模式
+- [] JVM
+- [] Java Servlet
+- [] Spring
+- [] MyBatis
+- [] WebService
+- [x] Log
 
 >
 -  2015-08-26	文件操作:FileInputStream&FileChannel
