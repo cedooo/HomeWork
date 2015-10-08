@@ -9,14 +9,14 @@
 	- [x] 线程相关
 		- [x] 线程同步
 		- [x] 线程池
-	- [] 正则表达式
-- [] 数据结构
-- [] 设计模式
-- [] JVM
-- [] Java Servlet
-- [] Spring
-- [] MyBatis
-- [] WebService
+	- [ ] 正则表达式
+- [ ] 数据结构
+- [ ] 设计模式
+- [ ] JVM
+- [ ] Java Servlet
+- [ ] Spring
+- [ ] MyBatis
+- [ ] WebService
 - [x] Log
 
 >
