@@ -8,25 +8,26 @@
 	<li>数据结构、设计模式、JVM</li>
 	<li>Java Servlet、 Spring、MyBatis、WebService、Log</li>
 </ul>
-<hr />
-<ul>
-	<li>2015-08-26	文件操作:FileInputStream&FileChannel</li>
-	<li>2015-08-27	MappedByteBuffer & SocketChannel/非阻塞IO</li>
-	<li>2015-08-28	Selector</li>
-	<li>2015-08-31	Essential Classes-Exceptions <a target="_blank" href="https://docs.oracle.com/javase/tutorial/figures/essential/exceptions-throwable.gif" >illustrates</a></li>
-	<li>2015-09-01	BasicIO-IO Stream</li>
-	<li>2015-09-06	Concurrency(1)-Thread&Synchronization</li>
-	<li>2015-09-07	Concurrency(2)-Liveness</li>
-	<li>2015-09-09	Concurrency(3)-Guarded Blocks</li>
-	<li>2015-09-11	Concurrency(4)-High Level Concurrency Objects</li>
-	<li>2015-09-14	Concurrency(5)-Executor</li>
-	<li>2015-09-16	The Platform Environment</li>
-	<li>2015-09-17	Regular Expressions</li>
-	<li>2015-09-21	Exceptions</li>
-	<li>2015-09-24	Tomcat Web Application Deployment Descriptor</li>
-	<li>2015-09-29	Date Time API(1) (JDK1.8)</li>
-</ul>
-<hr />
+---
+>
+- 2015-08-26	文件操作:FileInputStream&FileChannel
+-  2015-08-27	MappedByteBuffer & SocketChannel/非阻塞IO
+-  2015-08-28	Selector
+-  2015-08-31	Essential Classes-Exceptions <a target="_blank" href="https://docs.oracle.com/javase/tutorial/figures/essential/exceptions-throwable.gif" >illustrates</a>
+-  2015-09-01	BasicIO-IO Stream
+-  2015-09-06	Concurrency(1)-Thread&Synchronization
+-  2015-09-07	Concurrency(2)-Liveness
+-  2015-09-09	Concurrency(3)-Guarded Blocks
+-  2015-09-11	Concurrency(4)-High Level Concurrency Objects
+-  2015-09-14	Concurrency(5)-Executor
+-  2015-09-16	The Platform Environment
+-  2015-09-17	Regular Expressions
+-  2015-09-21	Exceptions
+-  2015-09-24	Tomcat Web Application Deployment Descriptor
+-  2015-09-29	Date Time API(1) (JDK1.8)
+-  2015-10-08	(SQL)笛卡尔积
+
+---
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
 <ol>
 <li>Exceptions</li>	
