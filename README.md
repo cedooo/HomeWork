@@ -3,12 +3,12 @@
 ***坚持每周更新3次!***
 <h5>计划列表-<span style="color:gray;">2015-08-25 10:38:02</span></h5>
 
-1.Essential Class: 异常、文件操作 、线程相关：线程同步、线程池、正则表达式
-2.数据结构、设计模式、JVM
-3.Java Servlet、 Spring、MyBatis、WebService、Log
+1. Essential Class: 异常、文件操作 、线程相关：线程同步、线程池、正则表达式
+2. 数据结构、设计模式、JVM
+3. Java Servlet、 Spring、MyBatis、WebService、Log
 
 >
-- 2015-08-26	文件操作:FileInputStream&FileChannel
+-  2015-08-26	文件操作:FileInputStream&FileChannel
 -  2015-08-27	MappedByteBuffer & SocketChannel/非阻塞IO
 -  2015-08-28	Selector
 -  2015-08-31	Essential Classes-Exceptions <a target="_blank" href="https://docs.oracle.com/javase/tutorial/figures/essential/exceptions-throwable.gif" >illustrates</a>
