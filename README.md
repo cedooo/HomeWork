@@ -1,14 +1,12 @@
 # HomeWork
 <h3>定时基础功课</h3>
-<b>坚持每周更新3次!</b>
+***坚持每周更新3次!***
 <h5>计划列表-<span style="color:gray;">2015-08-25 10:38:02</span></h5>
 
-<ul>
-	<li>Essential Class: 异常、文件操作 、线程相关：线程同步、线程池、正则表达式</li>
-	<li>数据结构、设计模式、JVM</li>
-	<li>Java Servlet、 Spring、MyBatis、WebService、Log</li>
-</ul>
----
+1.Essential Class: 异常、文件操作 、线程相关：线程同步、线程池、正则表达式
+2.数据结构、设计模式、JVM
+3.Java Servlet、 Spring、MyBatis、WebService、Log
+
 >
 - 2015-08-26	文件操作:FileInputStream&FileChannel
 -  2015-08-27	MappedByteBuffer & SocketChannel/非阻塞IO
@@ -27,7 +25,6 @@
 -  2015-09-29	Date Time API(1) (JDK1.8)
 -  2015-10-08	(SQL)笛卡尔积
 
----
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
 <ol>
 <li>Exceptions</li>	
