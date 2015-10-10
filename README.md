@@ -11,17 +11,11 @@
 		- [x] 线程池
 	- [x] 正则表达式
 - [ ] 数据结构
-- [ ] 设计模式(标准23种）[*参考1*](http://design-patterns.readthedocs.org/zh_CN/latest/read_uml.html)
+- [ ] 设计模式(标准23种）[*参考1*](http://design-patterns.readthedocs.org/zh_CN/latest/read_uml.html) [*参考2*](http://zz563143188.iteye.com/blog/1847029)
     - [ ] 创建型（5）
     - [ ] 结构型（7）
     - [ ] 行为型（11）
     - [ ] 六大原则
-        - [ ] 开闭原则
-        - [ ] 里氏代换原则
-        - [ ] 依赖倒转原则
-        - [ ] 接口隔离原则
-        - [ ] 迪米特原则
-        - [ ] 合成复用原则
 - [ ] JVM
 - [ ] Java Servlet
 - [ ] Spring
@@ -46,6 +40,7 @@
 -  2015-09-24	Tomcat Web Application Deployment Descriptor
 -  2015-09-29	Date Time API(1) (JDK1.8)
 -  2015-10-08	(SQL)笛卡尔积
+-  2015-10-10	设计模式-简单工厂模式: UML类图  时序图  应用：`java.text.DateFormat`
 
 <a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
 <ol>
