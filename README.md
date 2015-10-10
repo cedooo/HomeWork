@@ -42,7 +42,6 @@
 -  2015-10-08	(SQL)笛卡尔积
 -  2015-10-10	设计模式-简单工厂模式: UML类图  时序图  应用：`java.text.DateFormat`
 
----
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
 1. Exceptions 	
@@ -51,6 +50,5 @@
 4. The Platform Environment 	
 5. Regular Expressions 	
 
----
 
 ##### [NIO](https://github.com/jptiancai/learn-mina-the-hard-way/blob/master/README.md)     [特殊符号](http://www.ifreesite.com/typing/keyboard-symbols.htm)
