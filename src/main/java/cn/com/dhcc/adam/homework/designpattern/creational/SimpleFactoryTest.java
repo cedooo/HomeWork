@@ -1,4 +1,4 @@
-package cn.com.dhcc.adam.homework.designpattern;
+package cn.com.dhcc.adam.homework.designpattern.creational;
 
 import java.text.DateFormat;
 import java.util.Date;
