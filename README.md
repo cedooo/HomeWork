@@ -1,6 +1,6 @@
 # HomeWork
 <h3>定时基础功课</h3>
-***坚持每周更新3次!***
+**坚持每周更新3次!**
 <h5>计划列表-<span style="color:gray;">2015-08-25 10:38:02</span></h5>
 
 - [x] Essential Class
@@ -9,9 +9,19 @@
 	- [x] 线程相关
 		- [x] 线程同步
 		- [x] 线程池
-	- [ ] 正则表达式
+	- [x] 正则表达式
 - [ ] 数据结构
-- [ ] 设计模式
+- [ ] 设计模式(标准23种）[*参考1*](http://design-patterns.readthedocs.org/zh_CN/latest/read_uml.html)
+    - [ ] 创建型（5）
+    - [ ] 结构型（7）
+    - [ ] 行为型（11）
+    - [ ] 六大原则
+        - [ ] 开闭原则
+        - [ ] 里氏代换原则
+        - [ ] 依赖倒转原则
+        - [ ] 接口隔离原则
+        - [ ] 迪米特原则
+        - [ ] 合成复用原则
 - [ ] JVM
 - [ ] Java Servlet
 - [ ] Spring
@@ -23,7 +33,7 @@
 -  2015-08-26	文件操作:FileInputStream&FileChannel
 -  2015-08-27	MappedByteBuffer & SocketChannel/非阻塞IO
 -  2015-08-28	Selector
--  2015-08-31	Essential Classes-Exceptions <a target="_blank" href="https://docs.oracle.com/javase/tutorial/figures/essential/exceptions-throwable.gif" >illustrates</a>
+-  2015-08-31	[Essential Classes-Exceptions](https://docs.oracle.com/javase/tutorial/figures/essential/exceptions-throwable.gif)
 -  2015-09-01	BasicIO-IO Stream
 -  2015-09-06	Concurrency(1)-Thread&Synchronization
 -  2015-09-07	Concurrency(2)-Liveness
