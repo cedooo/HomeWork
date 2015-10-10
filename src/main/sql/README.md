@@ -1,5 +1,8 @@
+#  SQL 笛卡尔积
 
-SQL 笛卡尔积
+标签（空格分隔）： SQL 
+
+---
 ``` SQL 
 SELECT * 
 FROM (
