@@ -11,7 +11,7 @@
 		- [x] 线程池
 	- [x] 正则表达式
 - [ ] 数据结构
-- [ ] 设计模式(标准23种）[*参考1*](http://design-patterns.readthedocs.org/zh_CN/latest/read_uml.html) [*参考2*](http://zz563143188.iteye.com/blog/1847029)
+- [ ] 设计模式(标准23种) [*参考1*](http://design-patterns.readthedocs.org/zh_CN/latest/read_uml.html) [*参考2*](http://zz563143188.iteye.com/blog/1847029)
     - [ ] 创建型（5）
     - [ ] 结构型（7）
     - [ ] 行为型（11）
@@ -42,14 +42,15 @@
 -  2015-10-08	(SQL)笛卡尔积
 -  2015-10-10	设计模式-简单工厂模式: UML类图  时序图  应用：`java.text.DateFormat`
 
-[Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
+---
+##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
+> 
 1. Exceptions 	
 2. Basic I/O 	
 3. Concurrency 	
 4. The Platform Environment 	
 5. Regular Expressions 	
 
-<h5>NIO</h5>
-[惊喜1](https://github.com/jptiancai/learn-mina-the-hard-way/blob/master/README.md)
-<hr />
-[特殊符号](http://www.ifreesite.com/typing/keyboard-symbols.htm)
+---
+
+##### [NIO](https://github.com/jptiancai/learn-mina-the-hard-way/blob/master/README.md)     [特殊符号](http://www.ifreesite.com/typing/keyboard-symbols.htm)
