@@ -6,6 +6,7 @@
 - 设计模式
     - 创建型
         - 简单工厂
+
 ### 类图
 ![class](http://design-patterns.readthedocs.org/zh_CN/latest/_images/SimpleFactory.jpg)
 ### 时序图
