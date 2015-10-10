@@ -42,16 +42,14 @@
 -  2015-10-08	(SQL)笛卡尔积
 -  2015-10-10	设计模式-简单工厂模式: UML类图  时序图  应用：`java.text.DateFormat`
 
-<a target="_blank" href="https://docs.oracle.com/javase/tutorial/essential/index.html">Trail: Essential Classes</a>
-<ol>
-<li>Exceptions</li>	
-<li>Basic I/O</li>	
-<li>Concurrency</li>	
-<li>The Platform Environment</li>	
-<li>Regular Expressions</li>	
-</ol>
-<br />
+[Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
+1. Exceptions 	
+2. Basic I/O 	
+3. Concurrency 	
+4. The Platform Environment 	
+5. Regular Expressions 	
+
 <h5>NIO</h5>
-<a target="_blank" href="https://github.com/jptiancai/learn-mina-the-hard-way/blob/master/README.md">惊喜1</a>
+[惊喜1](https://github.com/jptiancai/learn-mina-the-hard-way/blob/master/README.md)
 <hr />
-<a target="_blank" href="http://www.ifreesite.com/typing/keyboard-symbols.htm">特殊符号</a>
+[特殊符号](http://www.ifreesite.com/typing/keyboard-symbols.htm)
