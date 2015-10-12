@@ -46,8 +46,8 @@
 -  2015-09-24	Tomcat Web Application Deployment Descriptor
 -  2015-09-29	Date Time API(1) (JDK1.8)
 -  2015-10-08	(SQL)笛卡尔积
--  2015-10-10	设计模式-简单工厂模式 应用：`java.text.DateFormat`
--  2015-10-12	设计模式-工厂方法模式 应用：`java.sql.DriverManager` `java.sql.Connection`
+-  2015-10-10	设计模式-简单工厂模式 应用：`java.text.DateFormat` `java.sql.DriverManager` `java.sql.Connection`
+-  2015-10-12	设计模式-工厂方法模式
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
