@@ -1,6 +1,6 @@
 #  Integer Type
 
-±êÇ© £º MySQL 
+æ ‡ç­¾ :  MySQL 
 
 ---
 
