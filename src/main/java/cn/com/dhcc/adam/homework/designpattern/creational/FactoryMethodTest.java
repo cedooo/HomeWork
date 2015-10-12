@@ -7,11 +7,11 @@ public class FactoryMethodTest {
 	 */
 	public static void main(String[] args) {
 		Factory fac = new ProductAFactory();
-		Product pa = fac.getInstance();
+		Product pa = fac.createProduct();
 		System.out.println(pa.getName());
 
 		Factory fbc = new ProductBFactory();
-		Product pb = fbc.getInstance();
+		Product pb = fbc.createProduct();
 		System.out.println(pb.getName());
 	}
 
@@ -40,13 +40,13 @@ class ProductB extends Product{
 }
 
 abstract class Factory{
-	abstract Product getInstance();
+	abstract Product createProduct();
 }
 
 class ProductAFactory extends Factory{
 
 	@Override
-	Product getInstance() {
+	Product createProduct() {
 		return new ProductA();
 	}
 	
@@ -55,7 +55,7 @@ class ProductAFactory extends Factory{
 class ProductBFactory extends Factory{
 
 	@Override
-	Product getInstance() {
+	Product createProduct() {
 		return new ProductB();
 	}
 	
