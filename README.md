@@ -52,7 +52,7 @@
 -  2015-10-10	设计模式-简单工厂模式 应用：`java.text.DateFormat`
 -  2015-10-12	设计模式-工厂方法模式 应用：`java.sql.DriverManager` `java.sql.Connection`
 -  2015-11-05   java.util.Timer
--  *2015-11-05  spring task schduler
+-  2015-11-06   [c3p0](http://www.mchange.com/projects/c3p0/)
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
