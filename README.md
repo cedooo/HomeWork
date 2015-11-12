@@ -53,6 +53,7 @@
 -  2015-10-12	设计模式-工厂方法模式 应用：`java.sql.DriverManager` `java.sql.Connection`
 -  2015-11-05   java.util.Timer
 -  2015-11-06   [c3p0](http://www.mchange.com/projects/c3p0/)
+-  2015-11-12   [Task Execution and Scheduling](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#scheduling)
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
