@@ -15,6 +15,7 @@
 	- [x] 线程相关
 		- [x] 线程同步
 		- [x] 线程池
+		- [ ] 任务调度
 	- [x] 正则表达式
 - [ ] 数据结构
 - [ ] 设计模式(标准23种) [*参考1*](http://design-patterns.readthedocs.org/zh_CN/latest/read_uml.html) [*参考2*](http://zz563143188.iteye.com/blog/1847029)
@@ -26,8 +27,10 @@
 - [ ] Java Servlet
 - [ ] Spring
 - [ ] MyBatis
+	- [ ] Java API-注解
 - [ ] WebService
-- [x] Log
+- [ ] Log
+	- [ ] log4j
 
 >
 -  2015-08-26	文件操作:FileInputStream&FileChannel
@@ -48,6 +51,9 @@
 -  2015-10-08	(SQL)笛卡尔积
 -  2015-10-10	设计模式-简单工厂模式 应用：`java.text.DateFormat`
 -  2015-10-12	设计模式-工厂方法模式 应用：`java.sql.DriverManager` `java.sql.Connection`
+-  2015-11-05   java.util.Timer
+-  2015-11-06   [c3p0](http://www.mchange.com/projects/c3p0/)
+-  2015-11-12   [Task Execution and Scheduling](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#scheduling)
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 

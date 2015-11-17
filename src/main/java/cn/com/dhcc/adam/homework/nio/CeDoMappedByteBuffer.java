@@ -80,7 +80,7 @@ public class CeDoMappedByteBuffer {
 				bytebuff.get(charbyte, 0 , length);
 				
 				String s = new String(charbyte);
-//				System.out.println(s);
+				System.out.println(s);
 				fileSize += length;
 				//strbu.append(s);
 				bytebuff.clear();
@@ -91,7 +91,7 @@ public class CeDoMappedByteBuffer {
 			System.out.println("间隔时间" + (eTime-sTime) + "ms, 文件大小：" + fileSize);
 			
 			//System.out.println("string builder length:" + strbu.length());
-			//System.out.println(strbu);
+			System.out.println(strbu);
 			fileChannel.close();
 			fis.close();
 		} catch (FileNotFoundException e) {

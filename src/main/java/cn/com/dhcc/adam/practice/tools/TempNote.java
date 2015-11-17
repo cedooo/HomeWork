@@ -34,7 +34,6 @@ public class TempNote {
 			Matcher ma = pa.matcher(sql[i]);
 			System.out.println(ma.matches() + " : " + sql[i]);
 			if(ma.matches()){
-				int gc = ma.groupCount();
 				System.out.println("\t" + ma.group(1));
 			}
 		}
@@ -44,7 +43,6 @@ public class TempNote {
 			Matcher mf = pf.matcher(sql[i]);
 			System.out.println(mf.matches() + " : " + sql[i]);
 			if(mf.matches()){
-				int gc = mf.groupCount();
 				System.out.println("\t" + mf.group(1));
 			}
 		}
