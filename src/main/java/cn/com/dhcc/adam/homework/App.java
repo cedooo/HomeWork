@@ -8,6 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	String name = null;
+        System.out.println( "Hello World!" +name );
+       // name = "cedo";
+        System.out.println( name != null? name+" hell" :"bye");
     }
 }
