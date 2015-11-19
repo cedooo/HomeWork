@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Context crossContext="true" reloadable="true" debug="0">
+<Context crossContext="true" reloadable="true"  >
 
 	<Resource auth="Container" description="DB Connection"
-		driverClass="com.mysql.jdbc.Driver" maxPoolSize="8" minPoolSize="4"
+		driverClass="com.mysql.jdbc.Driver" maxPoolSize="3" minPoolSize="1"
 		acquireIncrement="1" name="jdbc/c3p0" user="root" password="root"
 		factory="org.apache.naming.factory.BeanFactory" type="com.mchange.v2.c3p0.ComboPooledDataSource"
 		jdbcUrl="jdbc:mysql://localhost:3306/myserver?autoReconnect=true" />
@@ -11,4 +11,30 @@
 		maxActive="100" maxIdle="30" maxWait="10000" username="root" 
 		password="root" driverClassName="com.mysql.jdbc.Driver"
 		url="jdbc:mysql://localhost:3306/world" />
+		
+	<Resource name="jdbc/TomcatJdbcPool"
+          auth="Container"
+          type="javax.sql.DataSource"
+          factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+          testWhileIdle="true"
+          testOnBorrow="true"
+          testOnReturn="false"
+          validationQuery="SELECT 1"
+          validationInterval="30000"
+          timeBetweenEvictionRunsMillis="30000"
+          maxActive="100"
+          minIdle="1"
+          maxWait="10000"
+          initialSize="1"
+          removeAbandonedTimeout="60"
+          removeAbandoned="true"
+          logAbandoned="true"
+          minEvictableIdleTimeMillis="30000"
+          jmxEnabled="false"
+          jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;
+            org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"
+          username="root"
+          password="root"
+          driverClassName="com.mysql.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/world"/>
 </Context>

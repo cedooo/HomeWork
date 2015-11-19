@@ -24,7 +24,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-  
+  	<h2>C3P0</h2>
+  	<%=new TestConnect().test() %>
+  	<hr />
     <sql:query var="rs" dataSource="jdbc/c3p0">
 	     select collecttime,
 			IF(oav IS NOT  NULL , CONCAT(oav/1, ' V'), '不支持') as oav,
@@ -40,13 +42,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
              ${row.oav}---${row.obv}---${row.ocv}---${row.oac}---${row.obc}---${row.occ}<br/>
      </c:forEach>
      <hr  />
-     
+     <h2>dbcp</h2>
     <sql:query var="countrys" dataSource="jdbc/world">
 	     select * from country
     </sql:query>
     <c:forEach var="rowc" items="${countrys.rows}">
              <%--${row.字段名}获取字段的值--%>
              ${rowc.Name}---${rowc.Code}---${rowc.Population}---${rowc.Code2}<br/>
+     </c:forEach>
+     <hr />
+     <h2>JDBC Pool</h2>
+    <sql:query var="countrysfrompool" dataSource="jdbc/TomcatJdbcPool">
+	     select * from country
+    </sql:query>
+    <c:forEach var="rowp" items="${countrysfrompool.rows}">
+             <%--${row.字段名}获取字段的值--%>
+             ${rowp.Name}---${rowp.Code}---${rowp.Population}---${rowp.Code2}<br/>
      </c:forEach>
   </body>
 </html>
