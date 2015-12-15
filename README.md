@@ -60,6 +60,7 @@
 -  |			..	
 -  |			..
 -  2015-11-30   ..
+-  2015-12-15   [MIME types](http://www.iana.org/assignments/media-types/media-types.xhtml)
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
