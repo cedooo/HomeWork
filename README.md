@@ -1,4 +1,4 @@
-# HomeWork
+﻿# HomeWork
 
 
 标签（空格分隔）： common
@@ -61,6 +61,8 @@
 -  |			..
 -  2015-11-30   ..
 -  2015-12-15   [MIME types](http://www.iana.org/assignments/media-types/media-types.xhtml)
+-  .....
+-  2016-01-17   Windows script: [.bat-WMIC](http://thethe.blog.51cto.com/498901/150082),[环境变量](http://mizhihua.iteye.com/blog/1532939), [powershell](https://technet.microsoft.com/en-us/library/bb978526.aspx)
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
