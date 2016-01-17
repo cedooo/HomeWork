@@ -63,7 +63,7 @@
 -  2015-12-15   [MIME types](http://www.iana.org/assignments/media-types/media-types.xhtml)
 -  .....
 -  2016-01-17   Windows script
-	- [.bat-WMIC](http://thethe.blog.51cto.com/498901/150082)
+	- [.bat-WMIC](https://msdn.microsoft.com/en-us/library/windows/desktop/aa394531(v=vs.85).aspx) [中文简介](http://thethe.blog.51cto.com/498901/150082)
 	- [环境变量](http://mizhihua.iteye.com/blog/1532939)
 	- [powershell](https://technet.microsoft.com/en-us/library/bb978526.aspx)
 
