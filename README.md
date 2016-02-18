@@ -6,7 +6,6 @@
 ---
 
 <h3>定时基础功课</h3>
-**坚持每周更新3次!**
 <h5>计划列表-<span style="color:gray;">2015-08-25 10:38:02</span></h5>
 
 - [x] Essential Class
