@@ -65,7 +65,7 @@
 	- [.bat-WMIC](https://msdn.microsoft.com/en-us/library/windows/desktop/aa394531(v=vs.85).aspx) [中文简介](http://thethe.blog.51cto.com/498901/150082)
 	- [环境变量](http://ss64.com/nt/syntax-variables.html) [others](http://mizhihua.iteye.com/blog/1532939)
 	- [powershell](https://technet.microsoft.com/en-us/library/bb978526.aspx)
--  2016-8-19    [Java Enhancements](https://github.com/cedooo/HomeWork/Doc/Java Programming Language Enhancements.docx)
+-  2016-8-19    [Java Enhancements](https://github.com/cedooo/HomeWork/Doc/java_programming_language_enhancements.docx)
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
