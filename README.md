@@ -68,6 +68,7 @@
 -  2016-8-19    [Java Enhancements](https://raw.githubusercontent.com/cedooo/HomeWork/master/Doc/java_programming_language_enhancements.docx) [Orache Doc](http://docs.oracle.com/javase/8/docs/technotes/guides/language/enhancements.html)
 -  2016-8-22    [Java History-javapapers](http://javapapers.com/core-java/java-history/)
 -  2016-8-23    [JDK1.1](http://www.oracle.com/technetwork/java/overview-141217.html) <b>JDBC</b>
+-  2016-8-24    [RMI(Remote Method Invoke)](http://docs.oracle.com/javase/8/docs/technotes/guides/rmi/index.html) [Inner Class](http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html)
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 

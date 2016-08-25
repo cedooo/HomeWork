@@ -50,6 +50,7 @@ public class JDBC {
 	 * JNDI
 	 * 抛出 javax.naming.NoInitialContextException :
 	 * 需要在web服务器中配置 context.xml&web.xml
+	 * @since JDK1.4
 	 */
 	public static void jdbcWithDataSource(){
 		//? how to get the DataSource Object???
