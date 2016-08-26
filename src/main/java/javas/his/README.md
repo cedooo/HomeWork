@@ -1,30 +1,30 @@
 JDK Features:
--  [JDK1.0](https://) <span style="color:#777;font-size:12px;">@1996</span>
--  [JDK1.1](https://) <span style="color:#777;font-size:12px;">@1997</span>
+-  [JDK1.0](https://) @1996
+-  [JDK1.1](https://) @1997
 	- RMI
 	- JDBC 1.0
 	- Inner Classes
--  [JDK1.2](https://) <span style="color:#777;font-size:12px;">@1998</span>
+-  [JDK1.2](https://) @1998
 	- Collections Framework
 	- JIT
 	- 安全工具 
 	- java基础类
 	- java2D包
 	- JDBC 2.0
--  [JDK1.3](https://) <span style="color:#777;font-size:12px;">@2000</span>
+-  [JDK1.3](https://) @2000
 	- [JNDI](http://docs.oracle.com/javase/tutorial/jndi/index.html)
--  [JDK1.4](https://) <span style="color:#777;font-size:12px;">@2002</span>
+-  [JDK1.4](https://) @2002
 	- XML处理
 	- java Print
 	- Logging
 	- JDBC 3.0
 	- 断言
 	- 正则表达式
--  [JDK5](https://) <span style="color:#777;font-size:12px;">@2004</span>
+-  [JDK5](https://) @2004
 	-  
--  [JDK6](https://) <span style="color:#777;font-size:12px;">@2006</span>
+-  [JDK6](https://) @2006
 	- 	JDBC 4.0
--  [JDK7](https://) <span style="color:#777;font-size:12px;">@2011</span>
+-  [JDK7](https://) @2011
 	-  	JDBC 4.1
--  [JDK8](https://) <span style="color:#777;font-size:12px;">@2014</span>
+-  [JDK8](https://) @2014
 	-  Lambada
