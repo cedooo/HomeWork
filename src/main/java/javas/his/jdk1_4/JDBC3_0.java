@@ -9,8 +9,6 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
-import javas.his.jdk1_2.JDBC2_0;
-
 /**
  * 参考： http://www.oracle.com/technetwork/java/overview-141217.html
  * 
@@ -33,7 +31,7 @@ public class JDBC3_0 extends javas.his.jdk1_2.JDBC2_0{
 	 * JNDI
 	 * 抛出 javax.naming.NoInitialContextException :
 	 * 需要在web服务器中配置 context.xml&web.xml
-	 * @since JDK1.4
+	 * @see eg. /homework/src/main/java/cn/com/dhcc/adam/homework/c3p0test/context.xml
 	 */
 	public static void jdbcWithDataSource(){
 		//? how to get the DataSource Object???
