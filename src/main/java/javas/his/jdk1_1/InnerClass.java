@@ -1,4 +1,4 @@
-package j8s.his.jdk1_1;
+package javas.his.jdk1_1;
 /**
  * 
  * @author cedo

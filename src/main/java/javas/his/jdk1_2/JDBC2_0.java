@@ -1,6 +1,6 @@
-package j8s.his.jdk1_2;
+package javas.his.jdk1_2;
 
-import j8s.his.jdk1_1.JDBC1_0;
+import javas.his.jdk1_1.JDBC1_0;
 /**
  * 可选包： DataSource
  * @author cedo

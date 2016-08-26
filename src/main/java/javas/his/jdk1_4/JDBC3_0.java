@@ -1,4 +1,4 @@
-package j8s.his.jdk1_4;
+package javas.his.jdk1_4;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -9,7 +9,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
-import j8s.his.jdk1_2.JDBC2_0;
+import javas.his.jdk1_2.JDBC2_0;
 
 /**
  * 参考： http://www.oracle.com/technetwork/java/overview-141217.html
@@ -17,7 +17,7 @@ import j8s.his.jdk1_2.JDBC2_0;
  * @author cedo
  * 
  */
-public class JDBC3_0 extends JDBC2_0{
+public class JDBC3_0 extends javas.his.jdk1_2.JDBC2_0{
 	public static void main(String[] args) {
 		//JDBC
 		//-create connection, send sql, process result
