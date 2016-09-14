@@ -9,8 +9,10 @@ public class Collections {
 
 		// java.util.Hashtable<String, String> ht;
 		//java.util.Set s = java.util.Collections.synchronizedSet(new java.util.HashSet());
-		Collections.vectorAndArrayList();
-		Collections.traversingAggregate();
+		vectorAndArrayList();
+		traversingAggregate();
+		arrayList();
+        hashMap();
 	}
 
 	public static final void vectorAndArrayList() {
@@ -31,7 +33,7 @@ public class Collections {
 		as.add(vcms[1]);
 		//as.add(vcms[2]);
 		System.out.println(Arrays.toString(vcms));
-		
+
 		System.out.println(vc.retainAll(as));
 
 	}
@@ -53,6 +55,18 @@ public class Collections {
 		System.out.println(vk.stream().map(Object::toString).collect(Collectors.joining(" ^_^ ")));
 		
 	}
-	
+
+	static public void arrayList(){
+		java.util.List<String> list = new java.util.ArrayList<String>();
+		list.addAll(java.util.Arrays.asList("String", "cedo", "happy"));
+		Object[] partOfList = list.toArray();
+		System.out.println(java.util.Arrays.toString(partOfList));
+	}
+
+	static public void hashMap(){
+	    java.util.Map<String, String> map = new java.util.HashMap<>();
+
+    }
+
 	
 }

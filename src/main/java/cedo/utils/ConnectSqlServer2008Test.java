@@ -7,7 +7,8 @@ public class ConnectSqlServer2008Test {
 	public static void main(String[] args) {
 		java.sql.Connection conn = null;
 		try {
-			conn = connectionWithMsjdbc();
+			conn = connectionWithJtds();
+            //conn = connectionWithMsjdbc();
 			if(conn==null){
 				return;
 			}
@@ -32,7 +33,7 @@ public class ConnectSqlServer2008Test {
 		java.sql.Connection conn = null;
 		try {
 			Class.forName("net.sourceforge.jtds.jdbc.Driver");
-			conn = java.sql.DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.1.234:1433;instance=cgnmobins",
+			conn = java.sql.DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.1.134:1433;instance=cgnmobins",
 					"sa", "dhcwg");
 			return conn;
 		} catch (ClassNotFoundException e) {
