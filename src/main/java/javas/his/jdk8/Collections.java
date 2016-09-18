@@ -13,6 +13,14 @@ public class Collections {
 		traversingAggregate();
 		arrayList();
         hashMap();
+        treeMap();
+
+		int h;
+		String key = "chendong";
+		String key2 = "cedo";
+		System.out.println( (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16) ) ;
+		h = 0;
+		System.out.println( (key2 == null) ? 0 : (h = key2.hashCode()) ^ (h >>> 16) ) ;
 	}
 
 	public static final void vectorAndArrayList() {
@@ -25,6 +33,7 @@ public class Collections {
 		vc.add(vcms[0]);
 		vc.add(vcms[1]);
 		vc.add(vcms[2]);
+        vc.add(null);
 		System.out.println(Arrays.toString(vcms));
 
 		// 方法都是非synchronized
@@ -35,6 +44,7 @@ public class Collections {
 		System.out.println(Arrays.toString(vcms));
 
 		System.out.println(vc.retainAll(as));
+
 
 	}
 	public static final void interfaces(){
@@ -65,8 +75,15 @@ public class Collections {
 
 	static public void hashMap(){
 	    java.util.Map<String, String> map = new java.util.HashMap<>();
+        map.put(null, "");
+        map.put("not null", "cedo");
 
     }
 
+    static public void treeMap(){
+        java.util.Map<String, String> tMap = new java.util.TreeMap<>();
+//        tMap.put(null, "");
+		//java.util.HashSet<String> hs;
+    }
 	
 }

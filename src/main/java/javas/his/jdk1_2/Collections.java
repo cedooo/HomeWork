@@ -29,4 +29,9 @@ public class Collections {
 	}
 	public void Vector(){
 	}
+	static public void hashtable(){
+		java.util.Hashtable<String, String> ht = new java.util.Hashtable<>();
+
+	}
+
 }
