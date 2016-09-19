@@ -1,0 +1,59 @@
+2016-09-19 15:59:55,473 INFO  [Object.java:21] : 31523390 15683161 false false
+2016-09-19 16:00:58,768 INFO  [Object.java:16] : 31523390 15683161 false false
+2016-09-19 16:28:38,310 INFO  [Object.java:16] : use simple log4j configure
+2016-09-19 16:28:38,390 INFO  [Object.java:22] : 20662138 33335085 false false
+2016-09-19 16:35:13,289 INFO  [Object.java:16] : use simple log4j configure
+2016-09-19 16:35:13,304 INFO  [Object.java:22] : 22852142 26958325 false false
+2016-09-19 16:36:25,870 INFO  [Object.java:22] : 30900 16971536 false false
+2016-09-19 16:37:18,164 INFO  [Object.java:22] : 1077624 18018782 false false
+2016-09-19 16:37:31,466 INFO  [Object.java:22] : 7702715 24577425 false false
+2016-09-19 16:40:38,507 INFO  [Object.java:22] : 1077624 18018782 false false
+2016-09-19 16:45:32,691 INFO  [Object.java:23] : 2840649 19520424 false false
+2016-09-19 16:54:14,090 INFO  [Object.java:23] : 30900 16971536 false false
+2016-09-19 16:54:26,395 INFO  [Object.java:23] : 30900 16971536 false false
+2016-09-19 16:55:41,140 INFO  [Object.java:23] : 30900 16971536 false false
+2016-09-19 16:59:23,782 INFO  [ThreadRunnable.java:41] : done
+2016-09-19 16:59:23,782 INFO  [ThreadRunnable.java:41] : done
+2016-09-19 16:59:59,091 INFO  [ThreadRunnable.java:41] : hhh
+2016-09-19 16:59:59,091 INFO  [ThreadRunnable.java:41] : hhh
+2016-09-19 17:00:33,406 INFO  [ThreadRunnable.java:30] : done
+2016-09-19 17:00:33,406 INFO  [ThreadRunnable.java:41] : hhh
+2016-09-19 17:00:44,583 INFO  [ThreadRunnable.java:30] : done
+2016-09-19 17:00:44,583 INFO  [ThreadRunnable.java:41] : cedo
+2016-09-19 17:01:02,164 INFO  [ThreadRunnable.java:41] : cedo
+2016-09-19 17:01:58,497 INFO  [ThreadRunnable.java:30] : done
+2016-09-19 17:01:58,497 INFO  [ThreadRunnable.java:41] : cedo
+2016-09-19 17:02:21,861 INFO  [ThreadRunnable.java:30] : done
+2016-09-19 17:02:21,861 INFO  [ThreadRunnable.java:41] : cedo
+2016-09-19 17:02:50,628 INFO  [ThreadRunnable.java:30] : done
+2016-09-19 17:02:50,628 INFO  [ThreadRunnable.java:41] : cedo
+2016-09-19 17:02:59,616 INFO  [ThreadRunnable.java:41] : cedo
+2016-09-19 17:02:59,616 INFO  [ThreadRunnable.java:30] : done
+2016-09-19 17:04:23,656 INFO  [ThreadRunnable.java:41] : Thread-1done
+2016-09-19 17:04:23,656 INFO  [ThreadRunnable.java:30] : Thread-0done
+2016-09-19 17:29:01,810 INFO  [ThreadRunnable.java:30] : Thread-0 done
+2016-09-19 17:29:01,810 INFO  [ThreadRunnable.java:41] : Thread-1 done
+2016-09-19 17:29:11,828 INFO  [Object.java:23] : 30900 16971536 false false
+2016-09-19 17:29:21,243 INFO  [Object.java:23] : 7702715 24577425 false false
+2016-09-19 17:29:25,188 INFO  [Object.java:23] : 30900 16971536 false false
+2016-09-19 17:29:28,694 INFO  [Object.java:23] : 1077624 18018782 false false
+2016-09-19 17:29:53,015 INFO  [Object.java:23] : 30900 16971536 false false
+2016-09-19 17:29:53,015 INFO  [Object.java:24] : 3049581
+2016-09-19 17:29:58,179 INFO  [Object.java:23] : 2840649 19520424 false false
+2016-09-19 17:29:58,179 INFO  [Object.java:24] : 3049581
+2016-09-19 17:30:01,468 INFO  [Object.java:23] : 2840649 19520424 false false
+2016-09-19 17:30:01,468 INFO  [Object.java:24] : 3049581
+2016-09-19 17:31:00,575 INFO  [Object.java:22] : 30900 16971536 false false
+2016-09-19 17:31:00,575 INFO  [Object.java:23] : 3049581
+2016-09-19 17:31:00,575 INFO  [Object.java:26] : 3049581
+2016-09-19 17:31:06,184 INFO  [Object.java:22] : 2840649 19520424 false false
+2016-09-19 17:31:06,200 INFO  [Object.java:23] : 3049581
+2016-09-19 17:31:06,200 INFO  [Object.java:26] : 3049581
+2016-09-19 17:31:18,476 INFO  [Object.java:22] : 2840649 19520424 false false
+2016-09-19 17:31:18,476 INFO  [Object.java:23] : 3049581
+2016-09-19 17:31:18,476 INFO  [Object.java:26] : 94537122
+2016-09-19 17:31:31,090 INFO  [Object.java:22] : 2840649 19520424 false false
+2016-09-19 17:31:31,090 INFO  [Object.java:26] : 3049581
+2016-09-19 17:31:39,684 INFO  [Object.java:22] : 2840649 19520424 false false
+2016-09-19 17:31:39,684 INFO  [Object.java:23] : 3049581
+2016-09-19 17:31:39,684 INFO  [Object.java:26] : 3049581

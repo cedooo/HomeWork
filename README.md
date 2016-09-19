@@ -77,6 +77,13 @@
 -  |            java.util.Collection java.util.Map
 -  2016-9-2     ------
 -  2016-9-5		Lambda Expression(JDK8)
+-  2016-9-12    ------
+-  |            java.util.HashMap
+-  |            java.util.HashSet
+-  2016-9-18    ------
+-  2016-9-19    ------
+-  2016-9-19    java.util.concurrent    
+-  |            
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 
