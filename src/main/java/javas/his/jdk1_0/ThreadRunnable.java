@@ -10,16 +10,6 @@ import org.springframework.expression.ExpressionException;
 public class ThreadRunnable {
 
     private static Logger log = Logger.getLogger(ThreadRunnable.class);
-    @Test
-    public void basicTest() throws Exception{
-        Thread t1 = new Thread(new TestRunnable());
-        Thread t2 = new TestThread();
-        t1.start();
-        t2.start();
-        t1.join();
-        t2.join();
-    }
-
 
     static class TestRunnable implements java.lang.Runnable{
 
@@ -44,4 +34,25 @@ public class ThreadRunnable {
             }
         }
     }
+
+    @Test
+    public void basicTest() throws Exception{
+        Thread t1 = new Thread(new TestRunnable());
+        Thread t2 = new TestThread();
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+    }
+
+    @Test
+    public void synchronizedTest() {
+        int counter = 0;
+        synchronized(this){
+            counter++;
+        }
+        log.info("counter ++ ");
+    }
+
+
 }

@@ -26,4 +26,6 @@ public class Object {
         log.info(o.hashCode());
     }
 
+
+
 }

@@ -83,6 +83,7 @@
 -  2016-9-18    ------
 -  2016-9-19    ------
 -  2016-9-19    java.util.concurrent    
+-  |            intrinisic block,synchronized, guarded blocks. Producer-Consumer Pattern
 -  |            
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 

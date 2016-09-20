@@ -57,3 +57,108 @@
 2016-09-19 17:31:39,684 INFO  [Object.java:22] : 2840649 19520424 false false
 2016-09-19 17:31:39,684 INFO  [Object.java:23] : 3049581
 2016-09-19 17:31:39,684 INFO  [Object.java:26] : 3049581
+2016-09-20 09:19:44,757 INFO  [Object.java:22] : 2840649 19520424 false false
+2016-09-20 09:19:44,788 INFO  [Object.java:23] : 3049581
+2016-09-20 09:19:44,788 INFO  [Object.java:26] : 3049581
+2016-09-20 09:19:59,073 INFO  [Object.java:22] : 2840649 19520424 false false
+2016-09-20 09:19:59,073 INFO  [Object.java:23] : 3049581
+2016-09-20 09:19:59,073 INFO  [Object.java:26] : 3049581
+2016-09-20 09:20:06,183 INFO  [Object.java:22] : 30900 16971536 false false
+2016-09-20 09:20:06,183 INFO  [Object.java:23] : 3049581
+2016-09-20 09:20:06,183 INFO  [Object.java:26] : 3049581
+2016-09-20 10:10:37,591 INFO  [Object.java:22] : 2840649 19520424 false false
+2016-09-20 10:10:37,607 INFO  [Object.java:23] : 3049581
+2016-09-20 10:10:37,607 INFO  [Object.java:26] : 3049581
+2016-09-20 10:10:49,022 INFO  [ThreadRunnable.java:31] : Thread-1 done
+2016-09-20 10:10:49,053 INFO  [ThreadRunnable.java:20] : Thread-0 done
+2016-09-20 10:10:49,053 INFO  [ThreadRunnable.java:54] : counter ++ 
+2016-09-20 11:14:45,366 INFO  [LockTest.java:25] : peter bow to pets
+2016-09-20 11:14:45,366 INFO  [LockTest.java:25] : pets bow to peter
+2016-09-20 11:15:29,185 INFO  [LockTest.java:25] : peter bow to pets
+2016-09-20 11:15:29,201 INFO  [LockTest.java:30] : pets bow back to peter
+2016-09-20 11:15:29,232 INFO  [LockTest.java:25] : pets bow to peter
+2016-09-20 11:15:29,232 INFO  [LockTest.java:30] : peter bow back to pets
+2016-09-20 11:15:49,218 INFO  [LockTest.java:25] : peter bow to pets
+2016-09-20 11:15:49,234 INFO  [LockTest.java:30] : pets bow back to peter
+2016-09-20 11:15:49,249 INFO  [LockTest.java:25] : pets bow to peter
+2016-09-20 11:15:49,249 INFO  [LockTest.java:30] : peter bow back to pets
+2016-09-20 11:15:59,090 INFO  [LockTest.java:25] : pets bow to peter
+2016-09-20 11:15:59,090 INFO  [LockTest.java:30] : peter bow back to pets
+2016-09-20 11:15:59,090 INFO  [LockTest.java:25] : peter bow to pets
+2016-09-20 11:15:59,090 INFO  [LockTest.java:30] : pets bow back to peter
+2016-09-20 11:16:04,187 INFO  [LockTest.java:25] : pets bow to peter
+2016-09-20 11:16:04,187 INFO  [LockTest.java:30] : peter bow back to pets
+2016-09-20 11:16:04,265 INFO  [LockTest.java:25] : peter bow to pets
+2016-09-20 11:16:04,265 INFO  [LockTest.java:30] : pets bow back to peter
+2016-09-20 11:16:24,946 INFO  [LockTest.java:25] : peter bow to pets
+2016-09-20 11:16:24,993 INFO  [LockTest.java:25] : pets bow to peter
+2016-09-20 11:16:49,924 INFO  [LockTest.java:25] : pets bow to peter
+2016-09-20 11:16:49,924 INFO  [LockTest.java:30] : peter bow back to pets
+2016-09-20 11:16:49,955 INFO  [LockTest.java:25] : peter bow to pets
+2016-09-20 11:16:49,955 INFO  [LockTest.java:30] : pets bow back to peter
+2016-09-20 11:18:10,215 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:18:10,340 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:19:54,112 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:19:54,128 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:20:10,683 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:20:10,683 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:20:20,283 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:20:20,283 INFO  [LockTest.java:32] : pets bow back to peter[Thread-0]
+2016-09-20 11:20:20,299 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:20:20,299 INFO  [LockTest.java:32] : peter bow back to pets[Thread-1]
+2016-09-20 11:21:35,228 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:21:35,228 INFO  [LockTest.java:31] : pets bow back to peter[Thread-0]
+2016-09-20 11:21:35,244 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:21:35,244 INFO  [LockTest.java:31] : peter bow back to pets[Thread-1]
+2016-09-20 11:22:49,595 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:22:49,704 INFO  [LockTest.java:36] : peter bow back to pets[Thread-1]
+2016-09-20 11:22:49,735 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:22:49,860 INFO  [LockTest.java:36] : pets bow back to peter[Thread-0]
+2016-09-20 11:23:02,224 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:23:02,270 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:23:12,207 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:23:12,207 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:23:21,729 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:23:21,729 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 11:28:11,075 INFO  [LockTest.java:25] : peter bow to pets[Thread-0]
+2016-09-20 11:28:11,075 INFO  [LockTest.java:25] : pets bow to peter[Thread-1]
+2016-09-20 16:16:01,715 INFO  [ProducerConsumerTest.java:76] : get messages ! message one
+2016-09-20 16:16:06,530 INFO  [ProducerConsumerTest.java:76] : get messages ! message two
+2016-09-20 16:16:08,767 INFO  [ProducerConsumerTest.java:76] : get messages ! message three
+2016-09-20 16:16:10,595 INFO  [ProducerConsumerTest.java:76] : get messages ! message four
+2016-09-20 16:16:13,992 INFO  [ProducerConsumerTest.java:83] : get message done!
+2016-09-20 16:17:18,334 INFO  [ProducerConsumerTest.java:76] : get messages ! message one
+2016-09-20 16:17:21,530 INFO  [ProducerConsumerTest.java:76] : get messages ! message two
+2016-09-20 16:17:23,258 INFO  [ProducerConsumerTest.java:76] : get messages ! message three
+2016-09-20 16:17:25,826 INFO  [ProducerConsumerTest.java:76] : get messages ! message four
+2016-09-20 16:17:27,993 INFO  [ProducerConsumerTest.java:83] : get message done!
+2016-09-20 16:19:14,636 INFO  [ProducerConsumerTest.java:76] : get messages ! message one
+2016-09-20 16:19:15,095 INFO  [ProducerConsumerTest.java:76] : get messages ! message two
+2016-09-20 16:19:19,288 INFO  [ProducerConsumerTest.java:76] : get messages ! message three
+2016-09-20 16:19:20,897 INFO  [ProducerConsumerTest.java:76] : get messages ! message four
+2016-09-20 16:19:23,128 INFO  [ProducerConsumerTest.java:83] : get message done!
+2016-09-20 16:19:59,888 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message one
+2016-09-20 16:20:02,686 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message two
+2016-09-20 16:20:04,271 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message three
+2016-09-20 16:20:04,430 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message four
+2016-09-20 16:20:08,293 INFO  [ProducerConsumerTest.java:83] : get message done!
+2016-09-20 16:22:16,517 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message one
+2016-09-20 16:22:17,125 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message one
+2016-09-20 16:22:17,857 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message two
+2016-09-20 16:22:18,782 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message two
+2016-09-20 16:22:19,463 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message three
+2016-09-20 16:22:19,819 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message three
+2016-09-20 16:22:22,081 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message four
+2016-09-20 16:22:22,946 INFO  [ProducerConsumerTest.java:76] :  [MESSAGE] message four
+2016-09-20 16:22:25,752 INFO  [ProducerConsumerTest.java:83] : get message done!
+2016-09-20 16:22:27,896 INFO  [ProducerConsumerTest.java:83] : get message done!
+2016-09-20 16:37:31,634 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message one
+2016-09-20 16:37:34,105 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message two
+2016-09-20 16:37:37,048 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message three
+2016-09-20 16:37:40,629 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message four
+2016-09-20 16:37:43,833 INFO  [ProducerConsumerTest.java:84] : get message done!
+2016-09-20 16:37:49,383 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message one
+2016-09-20 16:37:54,247 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message two
+2016-09-20 16:37:59,056 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message three
+2016-09-20 16:37:59,197 INFO  [ProducerConsumerTest.java:77] :  [MESSAGE] message four
+2016-09-20 16:38:00,859 INFO  [ProducerConsumerTest.java:84] : get message done!
