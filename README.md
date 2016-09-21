@@ -84,6 +84,7 @@
 -  2016-9-19    ------
 -  2016-9-19    java.util.concurrent    
 -  |            intrinisic block,synchronized, guarded blocks. Producer-Consumer Pattern
+-  |            executor, lambada expression, bubble sort
 -  |            
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
