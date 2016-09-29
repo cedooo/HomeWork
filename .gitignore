@@ -12,5 +12,15 @@
 hs_err_pid*
 /target/
 
-.idea
+# 配置文件
+/.idea/
+
+# 日志目录
 /logs/
+
+/.settings/
+
+.classpath
+.project
+.myumldata
+homework.iml

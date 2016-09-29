@@ -17,6 +17,7 @@
 			</plugin>
 		</plugins>
 		<resources>
+			<!--  扫描.properties配置文件，eg. log4j.properties etc.
 			<resource>
 				<directory>${basedir}/src/main/java</directory>
 				<includes>
@@ -24,6 +25,7 @@
 					<include>**/*.xml</include>
 				</includes>
 			</resource>
+			-->
 		</resources>
 	</build>
 	<packaging>jar</packaging>
