@@ -69,6 +69,7 @@ public class _CollectionQuestionExercises {
 		for (String a : args)
 			ss.add(a);
 		out.println("\n" + ss.size() + " distinct words: " + ss);
+		StringBuffer sb;
 	}
 	
 }
