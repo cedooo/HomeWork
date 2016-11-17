@@ -86,6 +86,16 @@
 -  |            intrinisic block,synchronized, guarded blocks. Producer-Consumer Pattern
 -  |            executor, lambada expression, bubble sort
 -  |            
+-  2016-11-15	------
+-  2016-11-16  	Spring Framework MVC (org.springframework.web.servlet.DispatcherServlet 源代码阅读)
+	- Processing  Sequence
+		- WebApplicationContext bound in
+		- [locale resolver bound to]
+		- [theme resolver bound to]
+		- [multipart file resolver]
+		- search for hanlder(preprocessors, postprocessors, controllers)
+		- deal returned model
+
 
 ##### [Trail: Essential Classes](https://docs.oracle.com/javase/tutorial/essential/index.html) 
 > 

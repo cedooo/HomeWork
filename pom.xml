@@ -28,7 +28,7 @@
 			-->
 		</resources>
 	</build>
-	<packaging>jar</packaging>
+    <packaging>pom</packaging>
 
 	<name>homework</name>
 	<url>http://maven.apache.org</url>
